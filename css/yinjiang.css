@@ -1,0 +1,137 @@
+body,ul,li,div,p,img,a,header,button,h1,h2,figure{margin: 0;padding: 0;}
+img{border: 0 none;}
+a{text-decoration: none}
+a:hover{color: red;}
+li{list-style: none;}
+.triangle{border-left: 4px solid transparent;border-right: 4px solid transparent;border-top:4px solid #ffffff;width: 0;height: 0;}
+
+body{background: url(../images/bodybg.png) repeat-x}
+.yinjiang{margin: 0 auto;width: 1198px;height: 2050px;}
+.yinjiang header{height: 104px;}
+.yinjiang header .user{float:right;line-height: 103px; }
+.yinjiang header .user img{}
+.yinjiang header .user span{font-size: 17px;padding-right: 9px;border-right: 1px solid #6c6e71;color: #6c6e71;}
+.yinjiang header .user a{font-size: 18px;color: #6c6e71;padding-left: 8px;}
+.yinjiang header .user a:hover{color: red;}
+.yinjiang header .user button{border:none;font-size: 18px;background: #f18b33;border-radius:0.2em;color: #ffffff; width: 65px;height: 33px;text-align: center;margin-left: 19px;margin-right: 27px;}
+
+.yinjiang .totalmenu{}
+.yinjiang .totalmenu ul{}
+.yinjiang .totalmenu ul li{float: left;text-align: center;padding: 13px 31px 0 31px;font-size: 15px;height: 57px;transition: 1s;position: relative}
+.yinjiang .totalmenu ul li:nth-child(1){background: #ecb037;}
+.yinjiang .totalmenu ul li:hover{background: #ecb037;}
+.yinjiang .totalmenu ul li p{color: #ffffff;}
+.yinjiang .totalmenu ul li a{display: block}
+.yinjiang .totalmenu ul li .menu_text p{float: left;margin-left: 4px;}
+.yinjiang .totalmenu ul li .menu_text .triangle{float: left;margin-top: 9px;margin-left: 2px;}
+.yinjiang .totalmenu ul li .sub_totalmenu{width:100%;position: absolute;top:70px;left: 0;background: #2f64c0;transition: 1s;height: 0;overflow: hidden}
+.yinjiang .totalmenu ul li .sub_totalmenu a{display: block;line-height: 30px;font-size: 15px;color: white;}
+.yinjiang .totalmenu ul li #sub_totalmenu1:target{height:150px;}
+.yinjiang .totalmenu ul li #sub_totalmenu2:target{height:180px;}
+.yinjiang .totalmenu ul li #sub_totalmenu3:target{height:210px;}
+.yinjiang .totalmenu ul li #sub_totalmenu4:target{height:120px;}
+.yinjiang .totalmenu ul li #sub_totalmenu5:target{height:90px;}
+
+.yinjiang section{}
+.yinjiang section .tab{margin-top: 30px;height: 348px;overflow: hidden;width: 749px;float: left}
+.yinjiang section .tab .tablist{width: 749px;height: 34px;border-bottom: 1px solid #cccccc;}
+.yinjiang section .tab .tablist li{float: left;margin-right: 38px;}
+.yinjiang section .tab .tablist li a{font-size: 17px;color: #000000;padding-left: 2px;padding-bottom: 13px;padding-right: 12px;}
+.yinjiang section .tab .tablist li .active{color: #2f64c0;border-bottom: 4px solid #2f64c0;}
+.yinjiang section .tab .subtab{clear: both;position: absolute;}
+.yinjiang section .tab .subtab1{display: block;z-index: 1;}
+.yinjiang section .tab .subtab2{display: none;z-index: 2;}
+.yinjiang section .tab .subtab3{display: none;z-index: 2;}
+.yinjiang section .tab #subtab1:target{display: block;}
+.yinjiang section .tab #subtab2:target{display: block;}
+.yinjiang section .tab #subtab3:target{display: block;}
+.yinjiang section .tab .subtab article{font-size: 14px;}
+.yinjiang section .tab .subtab article figure{float: left;margin: 33px 21px 0 0;}
+.yinjiang section .tab .subtab article figure .img{width:280px;height:160px;overflow: hidden; }
+.yinjiang section .tab .subtab article figure .img img{transition: 2s; }
+.yinjiang section .tab .subtab article figure .img img:hover{transform: scale(1.2);}
+.yinjiang section .tab .subtab article figure p{margin-top: 10px;}
+.yinjiang section .tab .subtab article ul{width: 448px;float: left;margin-top: 30px;}
+.yinjiang section .tab .subtab article ul li{height: 33px;}
+.yinjiang section .tab .subtab article ul li .point{width: 4px;height: 4px;background: #000000;float: left;margin-top: 9px;margin-right: 8px;}
+.yinjiang section .tab .subtab article ul li a{color: #3e3e3e;transition: 1s;}
+.yinjiang section .tab .subtab article ul li a:hover{color: red;text-shadow: 2px 2px 5px #111111;}
+.yinjiang section .tab .buttongroup{padding-top:24px;clear: both}
+.yinjiang section .tab .buttongroup a{float:left;display: block;width: 150px;height: 60px;text-align: center;line-height: 60px;color: #2f64c0;font-size: 15px;background: #dfeff6;border: 1px solid #b5cde2;border-radius: 3px;margin-right: 27px;}
+.yinjiang section .tab .buttongroup a:hover{color: red;}
+
+.yinjiang section .activity{float: left;width: 395px;margin-left: 52px;overflow: hidden}
+.yinjiang section .activity article{padding-top: 1px;}
+.yinjiang section .activity article header{border-bottom: 1px solid #cccccc;height: 34px;font-size: 17px;margin-top: 30px;overflow: hidden}
+.yinjiang section .activity article header span{float: left;color: #000000;}
+.yinjiang section  article header .park{float: left;color:#b0b0b0;margin-left: 9px;}
+.yinjiang section .activity article article:nth-child(3){padding-top: 10px;}
+.yinjiang section .activity article article:nth-child(4){padding-top: 10px;}
+.yinjiang section .activity article article figure{float: left;margin: 22px 15px 0 0;}
+.yinjiang section .activity article article figure img{transition: 2s;}
+.yinjiang section .activity article article figure img:hover{transform:scale(1.2);}
+.yinjiang section .activity article article aside{margin-top: 22px;}
+.yinjiang section .activity article article aside h1{color: #3e3e3e;line-height: 22px;}
+.yinjiang section .activity article article aside p{font-size: 12px;color:#b0b0b0;line-height: 22px;margin-top: 5px; }
+
+.yinjiang section .tour{width: 753px;height: 410px;float: left;margin-top: -30px;}
+.yinjiang section .tour article{}
+.yinjiang section .tour article header{width:440px;margin-bottom: 20px;border-bottom: 1px solid #cccccc;height: 34px;font-size: 17px;overflow: hidden}
+.yinjiang section .tour article header span{float: left;color: #000000;}
+.yinjiang section .tour article figure{width: 458px;display: block}
+.yinjiang section .tour article figure img{float: left;margin-right: 15px;margin-bottom: 15px;}
+.yinjiang section .tour article figure img:hover{transform: scale(1.1);}
+.yinjiang section .tour article aside{background: #f4f4f4;margin-left: 455px;margin-top: -37px;height: 367px;padding:21px 14px 0 28px;position: relative}
+.yinjiang section .tour article aside h1{padding-bottom: 10px;}
+.yinjiang section .tour article aside p{font-size: 14px;line-height: 29px;text-align: justify;color: #666666;}
+.yinjiang section .tour article aside a{position: absolute ;bottom: 28px;right: 14px;font-size: 14px;color: #d7393e;}
+
+.yinjiang section .model{width:397px;float: left;padding-left: 48px;padding-top: 32px;}
+.yinjiang section .model article{}
+.yinjiang section .model article header{width:405px;border-bottom: 1px solid #cccccc;height: 34px;font-size: 17px;overflow: hidden}
+.yinjiang section .model article header span{float: left;color: #000000;}
+.yinjiang section .model article nav{}
+.yinjiang section .model article nav ul{}
+.yinjiang section .model article nav ul li{text-align: center;float: left}
+.yinjiang section .model article nav ul li img{transition: 1s;}
+.yinjiang section .model article nav ul li img:hover{transform: rotateY(180deg);}
+.yinjiang section .model article nav ul li p{}
+
+.yinjiang section .service{float: left;padding-top: 25px;width: 1200px;}
+.yinjiang section .service article{}
+.yinjiang section .service article header{border-bottom: 1px solid #cccccc;height: 34px;font-size: 17px;overflow: hidden}
+.yinjiang section .service article header span{float: left;color: #000000;}
+
+@-webkit-keyframes move{
+    0%{left:0}
+    100%{left: -1160px;}
+}
+
+.yinjiang section .service article nav{width: 1160px;height: 320px;overflow: hidden;position: relative}
+.yinjiang section .service article nav ul{width: 2400px;position: absolute;-webkit-animation: 20s move infinite linear; }
+.yinjiang section .service article nav ul:hover{-webkit-animation-play-state:paused ;}
+.yinjiang section .service article nav ul li{float: left;margin-left: 32px;padding-top: 20px;font-size: 14px;color: #000000;}
+.yinjiang section .service article nav ul li img{transition: 1s;}
+.yinjiang section .service article nav ul li img:hover{transform: rotateY(180deg);}
+.yinjiang section .service article nav ul li .name{padding-top: 12px;padding-bottom: 12px;border-bottom: 1px dashed #999999;}
+.yinjiang section .service article nav ul li .price{padding-top: 10px;padding-bottom: 8px;padding-left: 9px;}
+.yinjiang section .service article nav ul li .price span{color: #ff5a00;}
+.yinjiang section .service article nav ul li .advantage{font-size: 12px;color: #999999;}
+
+.yinjiang footer{padding-top: 24px;float: left;position: relative;width: 100%}
+.yinjiang footer nav{height:20px;overflow: hidden}
+.yinjiang footer nav ul{padding-left: 199px;}
+.yinjiang footer nav ul li{float: left}
+.yinjiang footer nav ul li a{padding-right: 19px;border-right: 1px solid #ffffff;padding-left: 19px;color: #ffffff;font-size: 14px;}
+.yinjiang footer nav ul li:last-child a{border: none;}
+.yinjiang footer pre{line-height: 24px;color: #666666;margin-top: 35px;padding-left: 20px;}
+.yinjiang footer figure{position: absolute;bottom: 30px;right: 0;text-align: center}
+.yinjiang footer figure img{}
+.yinjiang footer figure p{font-size: 6px;}
+
+
+
+
+
+
+
